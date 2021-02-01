@@ -1,0 +1,120 @@
+// **************************************************
+// ROOT (FOR DARK/LIGHT MODE)
+// **************************************************
+
+:root {
+  --heading-color: #282b36;
+  --background-color: #fff;
+  --button-background: #282b36;
+  --button-color: #fff;
+}
+
+
+
+// **************************************************
+// GLOBAL
+// **************************************************
+
+$sans-serif: 'Noto Sans JP', sans-serif;
+$serif: 'Lora', serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+// **************************************************
+// MAIN NAV
+// **************************************************
+
+.main-nav-container {
+  max-width: 100%;
+  margin: auto 0;
+  box-shadow: 0 1px 4px 1px #ccc;
+  .main-nav-ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    li {
+      font-family: $sans-serif;
+      font-size: 1em;
+      a {
+        color: var(--button-background);
+      }
+    }
+    li:not(:nth-child(4)) {
+      margin-right: 20px;
+    }
+    li:nth-child(4) {
+      margin-right: 5%;
+    }
+    button {
+      padding: 3px 8px;
+      font-family: $sans-serif;
+      font-size: 1em;
+      background-color: var(--button-background);
+      color: var(--button-color);
+      border: none;
+      border-radius: 3px;
+    }
+  }
+}
+
+
+
+// **************************************************
+// MAIN
+// **************************************************
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+
+// **************************************************
+// INTRO
+// **************************************************
+
+.intro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  h1 {
+    font-family: $sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 1.2;
+    color: var(--heading-color);
+  }
+}
+
+p {
+  font-family: $serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: var(--button-background)
+}
+
+
+
+// **************************************************
+// MEDIA QUERIES
+// **************************************************

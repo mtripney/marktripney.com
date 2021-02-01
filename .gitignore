@@ -1,0 +1,9 @@
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/jsLinters/eslint.xml
+/.idea/marktripney.iml
+/.idea/modules.xml
+/.idea/watcherTasks.xml
+/config.codekit3
+.idea

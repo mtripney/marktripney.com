@@ -1,0 +1,83 @@
+:root {
+  --heading-color: #282b36;
+  --background-color: #fff;
+  --button-background: #282b36;
+  --button-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav-container {
+  max-width: 100%;
+  margin: auto 0;
+  box-shadow: 0 1px 4px 1px #ccc;
+}
+.main-nav-container .main-nav-ul {
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main-nav-container .main-nav-ul li {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1em;
+}
+.main-nav-container .main-nav-ul li a {
+  color: var(--button-background);
+}
+.main-nav-container .main-nav-ul li:not(:nth-child(4)) {
+  margin-right: 20px;
+}
+.main-nav-container .main-nav-ul li:nth-child(4) {
+  margin-right: 5%;
+}
+.main-nav-container .main-nav-ul button {
+  padding: 3px 8px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1em;
+  background-color: var(--button-background);
+  color: var(--button-color);
+  border: none;
+  border-radius: 3px;
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.intro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.intro h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: 1.2;
+  color: var(--heading-color);
+}
+
+p {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: var(--button-background);
+}
