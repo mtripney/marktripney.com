@@ -6,6 +6,7 @@ const darkColors = {
   '--background-color': '#282b36',
   '--button-background': '#fff',
   '--button-color': '#282b36',
+  '--nav-background': '#1F1B24'
 }
 
 const lightColors = {
@@ -13,6 +14,7 @@ const lightColors = {
   '--background-color': '#fff',
   '--button-background': '#282b36',
   '--button-color': '#fff',
+  '--nav-background': '#f5f5f5'
 }
 
 const setColors = (mode, palette) => {
