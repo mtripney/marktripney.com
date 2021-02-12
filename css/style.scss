@@ -117,7 +117,13 @@ p {
   font-family: $sans-serif;
   font-weight: var(--med-font-weight);
   font-size: 1.3em;
-  color: var(--button-background)
+  color: var(--button-background);
+  // TODO: Remove this margin when more content is added.
+  margin-bottom: 0.6em;
+}
+
+em {
+  color: inherit;
 }
 
 
